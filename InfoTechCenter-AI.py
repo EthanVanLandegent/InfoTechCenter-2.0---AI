@@ -10,7 +10,7 @@ def boot_up_sequence():
     for step in range(1, total_steps + 1):
         sys.stdout.write(f"\r{'=' * step} {step *2}%")
         sys.stdout.flush()
-        time.sleep(0.5)
+        time.sleep(0.1)
 
     print("\n\nOperating System Booted Up - Retina Scanned - Access Granted!")
 
